@@ -1,0 +1,11 @@
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\bin\Release\AnilistAnalyzer.exe.config
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\bin\Release\AnilistAnalyzer.exe
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\bin\Release\AnilistAnalyzer.pdb
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistActivityAnalyzer.csproj.AssemblyReference.cache
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistAnalyzer.Default.resources
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistAnalyzer.HelpWindow.resources
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistAnalyzer.Properties.Resources.resources
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistActivityAnalyzer.csproj.GenerateResource.cache
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistActivityAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistAnalyzer.exe
+C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Release\AnilistAnalyzer.pdb

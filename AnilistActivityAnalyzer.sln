@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnilistActivityAnalyzer", "AnilistAnalyzer\AnilistActivityAnalyzer.csproj", "{AD1EC171-2676-4718-A1C3-A4E71B198D6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD1EC171-2676-4718-A1C3-A4E71B198D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1EC171-2676-4718-A1C3-A4E71B198D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1EC171-2676-4718-A1C3-A4E71B198D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1EC171-2676-4718-A1C3-A4E71B198D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A75AF797-E9B7-44C2-807A-6DBEE69C0770}
+	EndGlobalSection
+EndGlobal
