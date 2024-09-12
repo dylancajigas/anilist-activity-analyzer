@@ -9,3 +9,14 @@ C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Debug\Anilist
 C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.exe
 C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.pdb
 C:\Users\dcajigas\source\repos\AnilistAnalyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.HelpWindow.resources
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\bin\Debug\AnilistAnalyzer.exe.config
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\bin\Debug\AnilistAnalyzer.exe
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\bin\Debug\AnilistAnalyzer.pdb
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistActivityAnalyzer.csproj.AssemblyReference.cache
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.Default.resources
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.HelpWindow.resources
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.Properties.Resources.resources
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistActivityAnalyzer.csproj.GenerateResource.cache
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistActivityAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.exe
+C:\Users\dcajigas\OneDrive - Applied Industrial Technologies\Documents\GitHub\anilist-activity-analyzer\AnilistAnalyzer\obj\Debug\AnilistAnalyzer.pdb

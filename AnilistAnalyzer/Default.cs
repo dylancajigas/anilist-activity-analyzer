@@ -8,6 +8,17 @@ namespace AnilistAnalyzer
 {
     public partial class Default : Form
     {
+        private readonly List<string> WEEKDAYNAMES = new List<string>
+        {
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        };
+
         public Default()
         {
             InitializeComponent();
@@ -33,7 +44,8 @@ namespace AnilistAnalyzer
                         List<DateTime> activity = parseData(reader.ReadLine());
                         if (activity != null)
                         {
-                            displayChart(activity);
+                            displayMonthlyChart(activity);
+                            displayInsights(activity);
                         }
                     }
                 }
@@ -46,6 +58,19 @@ namespace AnilistAnalyzer
             HelpWindow newHelpWindow = new HelpWindow();
             newHelpWindow.ShowDialog();
         }
+        private void csvSaveButton_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "CSV File|*.csv";
+            saveFileDialog.Title = "Save File";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK && saveFileDialog.FileName != "")
+            {
+                using (StreamWriter fs = new StreamWriter(saveFileDialog.FileName))
+                {
+                    fs.Write(csvTextBox.Text);
+                }
+            }
+        }
 
         private List<DateTime> parseData(string line)
         {
@@ -57,6 +82,10 @@ namespace AnilistAnalyzer
                 line = line.Substring(startIndex);
                 var endIndex = line.IndexOf("]");
                 line = line.Substring(0, endIndex);
+                if(startIndex == -1 || endIndex == -1)
+                {
+                    throw new Exception();
+                }
 
                 // parse activity dates
                 while (line.Contains("created_at"))
@@ -86,7 +115,7 @@ namespace AnilistAnalyzer
             return activity;
         }
 
-        private void displayChart(List<DateTime> activity)
+        private void displayMonthlyChart(List<DateTime> activity)
         {
             // enable tab control/hide no file label
             tabControl.Enabled = true;
@@ -142,6 +171,8 @@ namespace AnilistAnalyzer
             dataChart.Series.Add("Activity");
             dataChart.Series["Activity"].ChartType = SeriesChartType.Line;
             dataChart.Series["Activity"].BorderWidth = 3;
+            csvTextBox.Text = "";
+
             for (int i = 0; i < activityList.Count; i++)
             {
                 dataChart.Series["Activity"].Points.AddXY(activityList[i].ToString(), activityList[i].activity);
@@ -149,25 +180,57 @@ namespace AnilistAnalyzer
             }
 
             dataChart.Visible = true;
-
-
-            // set up and display 
-
             csvTextBox.Visible = true;
         }
 
-        private void csvSaveButton_Click(object sender, EventArgs e)
+        private void displayInsights(List<DateTime> activity)
         {
-            SaveFileDialog saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "CSV File|*.csv";
-            saveFileDialog.Title = "Save File";
-            if (saveFileDialog.ShowDialog() == DialogResult.OK && saveFileDialog.FileName != "")
+            displayDayOfWeekChart(activity);
+            displayAverageActivity(activity);
+        }
+
+        private void displayDayOfWeekChart(List<DateTime> activity)
+        {
+            // analyze activity
+            int[] weekdayActivity = new int[7];
+            foreach(DateTime curr in activity)
             {
-                using (StreamWriter fs = new StreamWriter(saveFileDialog.FileName))
+                weekdayActivity[WEEKDAYNAMES.IndexOf(curr.DayOfWeek.ToString())]++;
+            }
+
+            // set up and display day of week chart
+            dayOfWeekChart.Series.Clear();
+            dayOfWeekChart.Series.Add("Activity");
+            dayOfWeekChart.Series["Activity"].ChartType = SeriesChartType.Column;
+
+            for(int i = 0; i < 7; i++)
+            {
+                dayOfWeekChart.Series["Activity"].Points.AddXY(WEEKDAYNAMES[i], weekdayActivity[i]);
+            }
+        }
+
+        private void displayAverageActivity(List<DateTime> activity)
+        {
+            // analyze activity
+            DateTime first = activity[0];
+            DateTime last = activity[0];
+            foreach(DateTime i in activity)
+            {
+                if(i.CompareTo(first) < 0)
                 {
-                    fs.Write(csvTextBox.Text);
+                    first = i;
+                }
+                if(i.CompareTo(last) > 0)
+                {
+                    last = i;
                 }
             }
+
+            var days = last.Subtract(first).TotalDays;
+            var avg = activity.Count / days;
+
+            // display average
+            activityPerDayLabel.Text = Math.Round(avg,1).ToString();
         }
     }
 

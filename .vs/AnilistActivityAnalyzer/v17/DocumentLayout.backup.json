@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1EC171-2676-4718-A1C3-A4E71B198D6D}|AnilistAnalyzer\\AnilistActivityAnalyzer.csproj|C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\anilistanalyzer\\default.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD1EC171-2676-4718-A1C3-A4E71B198D6D}|AnilistAnalyzer\\AnilistActivityAnalyzer.csproj|solutionrelative:anilistanalyzer\\default.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD1EC171-2676-4718-A1C3-A4E71B198D6D}|AnilistAnalyzer\\AnilistActivityAnalyzer.csproj|c:\\users\\dcajigas\\onedrive - applied industrial technologies\\documents\\github\\anilist-activity-analyzer\\anilistanalyzer\\default.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD1EC171-2676-4718-A1C3-A4E71B198D6D}|AnilistAnalyzer\\AnilistActivityAnalyzer.csproj|solutionrelative:anilistanalyzer\\default.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\AnilistAnalyzer\\Default.cs",
+              "RelativeDocumentMoniker": "AnilistAnalyzer\\Default.cs",
+              "ToolTip": "C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\AnilistAnalyzer\\Default.cs [Design]",
+              "RelativeToolTip": "AnilistAnalyzer\\Default.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:10:51.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.cs",
+              "DocumentMoniker": "C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\AnilistAnalyzer\\Default.cs",
+              "RelativeDocumentMoniker": "AnilistAnalyzer\\Default.cs",
+              "ToolTip": "C:\\Users\\dcajigas\\OneDrive - Applied Industrial Technologies\\Documents\\GitHub\\anilist-activity-analyzer\\AnilistAnalyzer\\Default.cs",
+              "RelativeToolTip": "AnilistAnalyzer\\Default.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T13:10:49.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
